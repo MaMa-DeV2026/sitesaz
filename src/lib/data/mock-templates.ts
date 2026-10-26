@@ -1,0 +1,133 @@
+import { TemplateMetadata } from '@/types';
+
+export const TEMPLATES: TemplateMetadata[] = [
+  {
+    id: 'tmpl-fashion-01',
+    slug: 'aria-fashion',
+    title: 'فروشگاه آریا برای پوشاک و اکسسوری',
+    category: 'fashion',
+    categoryLabel: 'پوشاک و فشن',
+    description: 'چیدمان تصویری برای معرفی پوشاک، اکسسوری و مجموعه‌های فصلی.',
+    features: ['چیدمان متناسب با پوشاک', 'معرفی مجموعه‌های فروشگاه', 'تنظیم رنگ و اطلاعات برند'],
+    thumbnailUrl: '/templates/aria-fashion.svg',
+    basePrice: 3850000,
+    defaultConfig: {
+      templateId: 'tmpl-fashion-01',
+      theme: {
+        primaryColor: '#18181b',
+        accentColor: '#d97706',
+        borderRadius: 'sm',
+      },
+      brand: {
+        storeName: 'استودیو مد کژوال',
+        tagline: 'تجربه استایل اصیل، پارچه لطیف و دوخت استادانه',
+        supportPhone: '09121112233',
+        instagramId: 'casual_fashion',
+        address: 'تهران، خیابان فرشته',
+      },
+      featuredProducts: [
+        {
+          id: 'p1',
+          title: 'اورکت کتان پاییزی استایل اورسایز',
+          price: 2480000,
+          category: 'کت و پالتو',
+          image: '/templates/product-fashion-jacket.svg',
+          badge: 'پرفروش',
+        },
+        {
+          id: 'p2',
+          title: 'پیراهن بافت موهر یقه اسکی',
+          price: 1390000,
+          category: 'پلیور و بافت',
+          image: '/templates/product-fashion-knit.svg',
+        },
+      ],
+    },
+  },
+  {
+    id: 'tmpl-tech-02',
+    slug: 'volt-digital',
+    title: 'فروشگاه ولت برای کالای دیجیتال',
+    category: 'digital',
+    categoryLabel: 'دیجیتال و تکنولوژی',
+    description: 'ساختار منظم برای معرفی گجت‌ها، لوازم جانبی و محصولات دیجیتال.',
+    features: ['چیدمان متناسب با محصولات دیجیتال', 'دسته‌بندی و معرفی کالاها', 'تنظیم رنگ و اطلاعات برند'],
+    thumbnailUrl: '/templates/volt-digital.svg',
+    basePrice: 4300000,
+    defaultConfig: {
+      templateId: 'tmpl-tech-02',
+      theme: {
+        primaryColor: '#1e3a8a',
+        accentColor: '#0284c7',
+        borderRadius: 'lg',
+      },
+      brand: {
+        storeName: 'تکنو استور پایتخت',
+        tagline: 'مرجع گجت‌های هوشمند اورجینال با ضمانت تعویض',
+        supportPhone: '02188990011',
+        instagramId: 'techno_capital',
+        address: 'تهران، تقاطع جمهوری و حافظ',
+      },
+      featuredProducts: [
+        {
+          id: 'p3',
+          title: 'هدفون بی‌سیم پرو حرفه‌ای',
+          price: 3950000,
+          category: 'لوازم جانبی',
+          image: '/templates/product-digital-headphones.svg',
+          badge: 'پرفروش',
+        },
+        {
+          id: 'p4',
+          title: 'ساعت هوشمند مانیتورینگ سلامت',
+          price: 3450000,
+          category: 'گجت پوشیدنی',
+          image: '/templates/product-digital-watch.svg',
+        },
+      ],
+    },
+  },
+  {
+    id: 'tmpl-beauty-03',
+    slug: 'niloofar-beauty',
+    title: 'فروشگاه نیلوفر برای مراقبت و زیبایی',
+    category: 'cosmetics',
+    categoryLabel: 'آرایشی و مراقبت پوست',
+    description: 'چیدمان روشن برای معرفی محصولات مراقبت پوست و کالاهای زیبایی.',
+    features: ['چیدمان مناسب محصولات مراقبتی', 'معرفی برند و محصولات', 'تنظیم رنگ و اطلاعات تماس'],
+    thumbnailUrl: '/templates/niloofar-beauty.svg',
+    basePrice: 3900000,
+    defaultConfig: {
+      templateId: 'tmpl-beauty-03',
+      theme: {
+        primaryColor: '#831843',
+        accentColor: '#f43f5e',
+        borderRadius: 'full',
+      },
+      brand: {
+        storeName: 'گالری پوست و زیبایی نیلوفر',
+        tagline: 'زیبایی طبیعی و مراقبت تخصصی با ترکیبات گیاهی',
+        supportPhone: '02122334455',
+        instagramId: 'niloofar_beauty_skin',
+        address: 'تهران، پاسداران، نبش بهستان پنجم',
+      },
+      featuredProducts: [
+        {
+          id: 'p5',
+          title: 'سرم ضدپیری و ویتامین سی ارگانیک',
+          price: 980000,
+          category: 'مراقبت پوست',
+          image: '/templates/product-beauty-serum.svg',
+          badge: '۱۰۰٪ گیاهی',
+        },
+        {
+          id: 'p6',
+          title: 'کرم آبرسان هیدراته ۲۴ ساعته',
+          price: 640000,
+          category: 'آبرسان',
+          image: '/templates/product-beauty-cream.svg',
+        },
+      ],
+    },
+  },
+];

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="0 0 500 380" role="img" aria-label="اورکت کتان پاییزی">
+  <defs>
+    <linearGradient id="jktBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3ede4"/>
+      <stop offset="1" stop-color="#e7dccb"/>
+    </linearGradient>
+    <linearGradient id="jktBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d97706"/>
+      <stop offset="1" stop-color="#92400e"/>
+    </linearGradient>
+    <filter id="jktShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#78350f" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="500" height="380" fill="url(#jktBg)"/>
+  <circle cx="410" cy="70" r="90" fill="#d97706" opacity="0.14"/>
+  <circle cx="80" cy="320" r="110" fill="#92400e" opacity="0.10"/>
+  <ellipse cx="250" cy="330" rx="130" ry="18" fill="#78350f" opacity="0.16"/>
+  <g filter="url(#jktShadow)">
+    <path d="M250 70 c-26 0 -44 14 -60 26 l-58 40 c-12 8 -16 22 -12 36 l16 54 34 -12 -8 106 c-1 12 8 20 20 20 h148 c12 0 21 -8 20 -20 l-8 -106 34 12 16 -54 c4 -14 0 -28 -12 -36 l-58 -40 c-16 -12 -34 -26 -60 -26 z" fill="url(#jktBody)"/>
+    <path d="M250 70 l-30 30 30 42 30 -42 z" fill="#7c2d12" opacity="0.65"/>
+    <path d="M250 142 v196" stroke="#7c2d12" stroke-width="6" opacity="0.7"/>
+    <circle cx="250" cy="196" r="6" fill="#fef3c7"/>
+    <circle cx="250" cy="242" r="6" fill="#fef3c7"/>
+    <path d="M164 240 h44 M292 240 h44" stroke="#7c2d12" stroke-width="5" opacity="0.5" stroke-linecap="round"/>
+    <rect x="130" y="286" width="70" height="10" rx="5" fill="#7c2d12" opacity="0.5"/>
+    <rect x="300" y="286" width="70" height="10" rx="5" fill="#7c2d12" opacity="0.5"/>
+  </g>
+</svg>

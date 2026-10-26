@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="0 0 500 380" role="img" aria-label="ساعت هوشمند">
+  <defs>
+    <linearGradient id="wchBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1530"/>
+      <stop offset="1" stop-color="#0c1633"/>
+    </linearGradient>
+    <linearGradient id="wchFace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <filter id="wchShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#020617" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <rect width="500" height="380" fill="url(#wchBg)"/>
+  <circle cx="100" cy="90" r="100" fill="#1e3a8a" opacity="0.45"/>
+  <circle cx="420" cy="300" r="110" fill="#0284c7" opacity="0.18"/>
+  <ellipse cx="250" cy="336" rx="110" ry="16" fill="#020617" opacity="0.55"/>
+  <g filter="url(#wchShadow)">
+    <rect x="206" y="44" width="88" height="70" rx="18" fill="#1e293b"/>
+    <rect x="206" y="266" width="88" height="70" rx="18" fill="#1e293b"/>
+    <rect x="176" y="98" width="148" height="184" rx="42" fill="#101a38" stroke="#38bdf8" stroke-width="5"/>
+    <rect x="196" y="118" width="108" height="144" rx="28" fill="url(#wchFace)" opacity="0.9"/>
+    <path d="M250 148 v34 l24 16" stroke="#e0f2fe" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <circle cx="250" cy="182" r="6" fill="#e0f2fe"/>
+    <rect x="212" y="222" width="76" height="8" rx="4" fill="#bae6fd" opacity="0.8"/>
+    <rect x="224" y="238" width="52" height="8" rx="4" fill="#7dd3fc" opacity="0.6"/>
+    <rect x="322" y="150" width="12" height="40" rx="6" fill="#38bdf8"/>
+  </g>
+</svg>

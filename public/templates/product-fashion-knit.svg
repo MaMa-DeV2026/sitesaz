@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="0 0 500 380" role="img" aria-label="پیراهن بافت موهر">
+  <defs>
+    <linearGradient id="knitBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef0f2"/>
+      <stop offset="1" stop-color="#dfe3e8"/>
+    </linearGradient>
+    <linearGradient id="knitBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <filter id="knitShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#475569" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="500" height="380" fill="url(#knitBg)"/>
+  <circle cx="90" cy="80" r="86" fill="#94a3b8" opacity="0.24"/>
+  <circle cx="420" cy="310" r="100" fill="#64748b" opacity="0.16"/>
+  <ellipse cx="250" cy="332" rx="126" ry="17" fill="#334155" opacity="0.16"/>
+  <g filter="url(#knitShadow)">
+    <path d="M250 66 c-24 0 -42 12 -58 24 l-60 44 c-11 8 -14 21 -10 33 l14 48 36 -12 -6 100 c-1 11 7 19 18 19 h132 c11 0 19 -8 18 -19 l-6 -100 36 12 14 -48 c4 -12 1 -25 -10 -33 l-60 -44 c-16 -12 -34 -24 -58 -24 z" fill="url(#knitBody)"/>
+    <path d="M214 82 a36 26 0 0 0 72 0" fill="#e2e8f0"/>
+    <path d="M214 82 a36 26 0 0 0 72 0" fill="none" stroke="#64748b" stroke-width="5"/>
+    <g stroke="#8ba0b5" stroke-width="4" opacity="0.65">
+      <path d="M176 170 v130 M208 160 v142 M250 152 v150 M292 160 v142 M324 170 v130"/>
+    </g>
+    <path d="M146 300 h64 M290 300 h64" stroke="#64748b" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>
